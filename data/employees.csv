@@ -1,0 +1,12 @@
+employee_id,name,current_role,completed_courses,years_experience
+EMP001,Sarah Chen,Data Analyst,"TC001, TC002, TC005, TC011",3
+EMP002,Michael Rodriguez,Business Intelligence Analyst,"TC007, TC012, TC020, TC005",5
+EMP003,Aisha Patel,Junior Data Scientist,"TC001, TC003, TC011, TC014",2
+EMP004,James O'Connor,DevOps Engineer,"TC008, TC009, TC016",4
+EMP005,Elena Volkov,Data Analyst,"TC001, TC002, TC011, TC022, TC025",4
+EMP006,David Kim,Software Developer,"TC019, TC021, TC009",3
+EMP007,Maria Santos,Data Engineer,"TC001, TC010, TC025, TC002",6
+EMP008,Ahmed Hassan,Cloud Solutions Architect,"TC004, TC016, TC008, TC023",7
+EMP009,Lisa Anderson,Product Manager,"TC015, TC007, TC020",5
+EMP010,Raj Sharma,Data Analyst,"TC001, TC002, TC003, TC005, TC011",3
+

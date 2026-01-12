@@ -1,0 +1,416 @@
+{
+  "EMP001": {
+    "name": "Sarah Chen",
+    "current_role": "Data Analyst",
+    "top_recommendations": [
+      {
+        "role_id": "JR012",
+        "role_title": "Data Scientist",
+        "required_skills": "Python, R, machine learning, statistics, data visualization, SQL, scikit-learn",
+        "similarity_percentage": 77.2300033569336
+      },
+      {
+        "role_id": "JR001",
+        "role_title": "Data Analyst",
+        "required_skills": "Python, SQL, data visualization, statistics, Excel, Tableau",
+        "similarity_percentage": 72.93000030517578
+      },
+      {
+        "role_id": "JR008",
+        "role_title": "AI Research Scientist",
+        "required_skills": "Python, machine learning, deep learning, research methodology, mathematics, NLP",
+        "similarity_percentage": 64.25
+      }
+    ],
+    "skill_gap_analysis": {
+      "employee_id": "EMP001",
+      "target_role": "Data Scientist",
+      "target_role_id": "JR012",
+      "similarity_score": 77.2300033569336,
+      "matching_skills": [
+        "python",
+        "sql",
+        "statistics",
+        "data visualization",
+        "r"
+      ],
+      "skill_gaps": [
+        "scikit-learn",
+        "machine learning"
+      ],
+      "gap_count": 2
+    }
+  },
+  "EMP002": {
+    "name": "Michael Rodriguez",
+    "current_role": "Business Intelligence Analyst",
+    "top_recommendations": [
+      {
+        "role_id": "JR005",
+        "role_title": "Business Intelligence Analyst",
+        "required_skills": "SQL, Power BI, Tableau, data modeling, ETL, business analysis",
+        "similarity_percentage": 74.75
+      },
+      {
+        "role_id": "JR003",
+        "role_title": "Data Strategy Officer",
+        "required_skills": "data governance, strategic planning, business intelligence, leadership, data architecture",
+        "similarity_percentage": 65.44000244140625
+      },
+      {
+        "role_id": "JR001",
+        "role_title": "Data Analyst",
+        "required_skills": "Python, SQL, data visualization, statistics, Excel, Tableau",
+        "similarity_percentage": 59.52000045776367
+      }
+    ],
+    "skill_gap_analysis": {
+      "employee_id": "EMP002",
+      "target_role": "Business Intelligence Analyst",
+      "target_role_id": "JR005",
+      "similarity_score": 74.75,
+      "matching_skills": [
+        "power bi",
+        "data modeling",
+        "tableau",
+        "etl"
+      ],
+      "skill_gaps": [
+        "business analysis",
+        "sql"
+      ],
+      "gap_count": 2
+    }
+  },
+  "EMP003": {
+    "name": "Aisha Patel",
+    "current_role": "Junior Data Scientist",
+    "top_recommendations": [
+      {
+        "role_id": "JR008",
+        "role_title": "AI Research Scientist",
+        "required_skills": "Python, machine learning, deep learning, research methodology, mathematics, NLP",
+        "similarity_percentage": 77.25
+      },
+      {
+        "role_id": "JR012",
+        "role_title": "Data Scientist",
+        "required_skills": "Python, R, machine learning, statistics, data visualization, SQL, scikit-learn",
+        "similarity_percentage": 69.22000122070312
+      },
+      {
+        "role_id": "JR001",
+        "role_title": "Data Analyst",
+        "required_skills": "Python, SQL, data visualization, statistics, Excel, Tableau",
+        "similarity_percentage": 54.310001373291016
+      }
+    ],
+    "skill_gap_analysis": {
+      "employee_id": "EMP003",
+      "target_role": "AI Research Scientist",
+      "target_role_id": "JR008",
+      "similarity_score": 77.25,
+      "matching_skills": [
+        "machine learning",
+        "python",
+        "nlp"
+      ],
+      "skill_gaps": [
+        "research methodology",
+        "mathematics",
+        "deep learning"
+      ],
+      "gap_count": 3
+    }
+  },
+  "EMP004": {
+    "name": "James O'Connor",
+    "current_role": "DevOps Engineer",
+    "top_recommendations": [
+      {
+        "role_id": "JR006",
+        "role_title": "DevOps Engineer",
+        "required_skills": "CI/CD, Docker, Kubernetes, Jenkins, Terraform, Linux, scripting",
+        "similarity_percentage": 77.61000061035156
+      },
+      {
+        "role_id": "JR004",
+        "role_title": "Cloud Solutions Architect",
+        "required_skills": "AWS, Azure, cloud architecture, DevOps, Kubernetes, microservices",
+        "similarity_percentage": 75.41999816894531
+      },
+      {
+        "role_id": "JR002",
+        "role_title": "Machine Learning Engineer",
+        "required_skills": "Python, TensorFlow, PyTorch, machine learning, deep learning, MLOps, Docker",
+        "similarity_percentage": 53.119998931884766
+      }
+    ],
+    "skill_gap_analysis": {
+      "employee_id": "EMP004",
+      "target_role": "DevOps Engineer",
+      "target_role_id": "JR006",
+      "similarity_score": 77.61000061035156,
+      "matching_skills": [
+        "scripting",
+        "ci/cd",
+        "docker",
+        "kubernetes",
+        "jenkins",
+        "linux",
+        "terraform"
+      ],
+      "skill_gaps": [],
+      "gap_count": 0
+    }
+  },
+  "EMP005": {
+    "name": "Elena Volkov",
+    "current_role": "Data Analyst",
+    "top_recommendations": [
+      {
+        "role_id": "JR012",
+        "role_title": "Data Scientist",
+        "required_skills": "Python, R, machine learning, statistics, data visualization, SQL, scikit-learn",
+        "similarity_percentage": 71.5999984741211
+      },
+      {
+        "role_id": "JR001",
+        "role_title": "Data Analyst",
+        "required_skills": "Python, SQL, data visualization, statistics, Excel, Tableau",
+        "similarity_percentage": 66.0999984741211
+      },
+      {
+        "role_id": "JR008",
+        "role_title": "AI Research Scientist",
+        "required_skills": "Python, machine learning, deep learning, research methodology, mathematics, NLP",
+        "similarity_percentage": 63.310001373291016
+      }
+    ],
+    "skill_gap_analysis": {
+      "employee_id": "EMP005",
+      "target_role": "Data Scientist",
+      "target_role_id": "JR012",
+      "similarity_score": 71.5999984741211,
+      "matching_skills": [
+        "python",
+        "r",
+        "statistics",
+        "sql"
+      ],
+      "skill_gaps": [
+        "data visualization",
+        "scikit-learn",
+        "machine learning"
+      ],
+      "gap_count": 3
+    }
+  },
+  "EMP006": {
+    "name": "David Kim",
+    "current_role": "Software Developer",
+    "top_recommendations": [
+      {
+        "role_id": "JR010",
+        "role_title": "Full Stack Developer",
+        "required_skills": "JavaScript, React, Node.js, Python, REST APIs, databases, Git",
+        "similarity_percentage": 70.58000183105469
+      },
+      {
+        "role_id": "JR006",
+        "role_title": "DevOps Engineer",
+        "required_skills": "CI/CD, Docker, Kubernetes, Jenkins, Terraform, Linux, scripting",
+        "similarity_percentage": 54.439998626708984
+      },
+      {
+        "role_id": "JR015",
+        "role_title": "UX/UI Designer",
+        "required_skills": "Figma, user research, prototyping, design thinking, usability testing, Adobe XD",
+        "similarity_percentage": 50.11000061035156
+      }
+    ],
+    "skill_gap_analysis": {
+      "employee_id": "EMP006",
+      "target_role": "Full Stack Developer",
+      "target_role_id": "JR010",
+      "similarity_score": 70.58000183105469,
+      "matching_skills": [
+        "python",
+        "react",
+        "git",
+        "javascript"
+      ],
+      "skill_gaps": [
+        "databases",
+        "rest apis",
+        "node.js"
+      ],
+      "gap_count": 3
+    }
+  },
+  "EMP007": {
+    "name": "Maria Santos",
+    "current_role": "Data Engineer",
+    "top_recommendations": [
+      {
+        "role_id": "JR007",
+        "role_title": "Data Engineer",
+        "required_skills": "Python, SQL, Apache Spark, ETL, data warehousing, Airflow, Kafka",
+        "similarity_percentage": 77.05999755859375
+      },
+      {
+        "role_id": "JR012",
+        "role_title": "Data Scientist",
+        "required_skills": "Python, R, machine learning, statistics, data visualization, SQL, scikit-learn",
+        "similarity_percentage": 71.87000274658203
+      },
+      {
+        "role_id": "JR001",
+        "role_title": "Data Analyst",
+        "required_skills": "Python, SQL, data visualization, statistics, Excel, Tableau",
+        "similarity_percentage": 64.77999877929688
+      }
+    ],
+    "skill_gap_analysis": {
+      "employee_id": "EMP007",
+      "target_role": "Data Engineer",
+      "target_role_id": "JR007",
+      "similarity_score": 77.05999755859375,
+      "matching_skills": [
+        "apache spark",
+        "python",
+        "etl",
+        "sql"
+      ],
+      "skill_gaps": [
+        "airflow",
+        "kafka",
+        "data warehousing"
+      ],
+      "gap_count": 3
+    }
+  },
+  "EMP008": {
+    "name": "Ahmed Hassan",
+    "current_role": "Cloud Solutions Architect",
+    "top_recommendations": [
+      {
+        "role_id": "JR004",
+        "role_title": "Cloud Solutions Architect",
+        "required_skills": "AWS, Azure, cloud architecture, DevOps, Kubernetes, microservices",
+        "similarity_percentage": 74.58999633789062
+      },
+      {
+        "role_id": "JR002",
+        "role_title": "Machine Learning Engineer",
+        "required_skills": "Python, TensorFlow, PyTorch, machine learning, deep learning, MLOps, Docker",
+        "similarity_percentage": 62.779998779296875
+      },
+      {
+        "role_id": "JR006",
+        "role_title": "DevOps Engineer",
+        "required_skills": "CI/CD, Docker, Kubernetes, Jenkins, Terraform, Linux, scripting",
+        "similarity_percentage": 47.790000915527344
+      }
+    ],
+    "skill_gap_analysis": {
+      "employee_id": "EMP008",
+      "target_role": "Cloud Solutions Architect",
+      "target_role_id": "JR004",
+      "similarity_score": 74.58999633789062,
+      "matching_skills": [
+        "microservices",
+        "aws",
+        "kubernetes",
+        "azure",
+        "cloud architecture"
+      ],
+      "skill_gaps": [
+        "devops"
+      ],
+      "gap_count": 1
+    }
+  },
+  "EMP009": {
+    "name": "Lisa Anderson",
+    "current_role": "Product Manager",
+    "top_recommendations": [
+      {
+        "role_id": "JR011",
+        "role_title": "Product Manager",
+        "required_skills": "product management, agile, stakeholder management, data analysis, UX design",
+        "similarity_percentage": 69.27999877929688
+      },
+      {
+        "role_id": "JR003",
+        "role_title": "Data Strategy Officer",
+        "required_skills": "data governance, strategic planning, business intelligence, leadership, data architecture",
+        "similarity_percentage": 60.810001373291016
+      },
+      {
+        "role_id": "JR005",
+        "role_title": "Business Intelligence Analyst",
+        "required_skills": "SQL, Power BI, Tableau, data modeling, ETL, business analysis",
+        "similarity_percentage": 55.400001525878906
+      }
+    ],
+    "skill_gap_analysis": {
+      "employee_id": "EMP009",
+      "target_role": "Product Manager",
+      "target_role_id": "JR011",
+      "similarity_score": 69.27999877929688,
+      "matching_skills": [
+        "agile",
+        "product management"
+      ],
+      "skill_gaps": [
+        "data analysis",
+        "ux design",
+        "stakeholder management"
+      ],
+      "gap_count": 3
+    }
+  },
+  "EMP010": {
+    "name": "Raj Sharma",
+    "current_role": "Data Analyst",
+    "top_recommendations": [
+      {
+        "role_id": "JR012",
+        "role_title": "Data Scientist",
+        "required_skills": "Python, R, machine learning, statistics, data visualization, SQL, scikit-learn",
+        "similarity_percentage": 78.4800033569336
+      },
+      {
+        "role_id": "JR008",
+        "role_title": "AI Research Scientist",
+        "required_skills": "Python, machine learning, deep learning, research methodology, mathematics, NLP",
+        "similarity_percentage": 71.68000030517578
+      },
+      {
+        "role_id": "JR001",
+        "role_title": "Data Analyst",
+        "required_skills": "Python, SQL, data visualization, statistics, Excel, Tableau",
+        "similarity_percentage": 67.93000030517578
+      }
+    ],
+    "skill_gap_analysis": {
+      "employee_id": "EMP010",
+      "target_role": "Data Scientist",
+      "target_role_id": "JR012",
+      "similarity_score": 78.4800033569336,
+      "matching_skills": [
+        "python",
+        "sql",
+        "machine learning",
+        "statistics",
+        "data visualization",
+        "r"
+      ],
+      "skill_gaps": [
+        "scikit-learn"
+      ],
+      "gap_count": 1
+    }
+  }
+}

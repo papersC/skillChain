@@ -1,0 +1,27 @@
+course_id,course_name,provider,skills_taught,duration_hours,level
+TC001,Python for Data Analysis,Coursera,"Python, pandas, NumPy, data analysis, Jupyter",40,Intermediate
+TC002,Advanced SQL for Data Scientists,Udemy,"SQL, query optimization, window functions, CTEs, database design",25,Advanced
+TC003,Machine Learning Specialization,Coursera,"machine learning, supervised learning, unsupervised learning, neural networks, Python",120,Intermediate
+TC004,AWS Solutions Architect Certification,AWS Training,"AWS, cloud architecture, EC2, S3, VPC, security, scalability",60,Advanced
+TC005,Data Visualization with Tableau,LinkedIn Learning,"Tableau, data visualization, dashboard design, storytelling with data",20,Beginner
+TC006,Deep Learning with TensorFlow,Udacity,"TensorFlow, deep learning, neural networks, CNNs, RNNs, Python",80,Advanced
+TC007,Business Intelligence Fundamentals,edX,"business intelligence, data warehousing, ETL, reporting, KPIs",30,Beginner
+TC008,Docker and Kubernetes Essentials,Pluralsight,"Docker, Kubernetes, containerization, orchestration, microservices",35,Intermediate
+TC009,DevOps Engineering Bootcamp,Udemy,"CI/CD, Jenkins, Git, Terraform, automation, Linux, scripting",50,Intermediate
+TC010,Data Engineering with Apache Spark,DataCamp,"Apache Spark, PySpark, big data, distributed computing, data pipelines",45,Advanced
+TC011,Statistics for Data Science,Coursera,"statistics, probability, hypothesis testing, regression analysis, R",55,Intermediate
+TC012,Power BI for Business Analytics,Microsoft Learn,"Power BI, DAX, data modeling, business analytics, visualization",28,Intermediate
+TC013,Cybersecurity Fundamentals,Cisco NetAcad,"network security, cryptography, threat analysis, security protocols",40,Beginner
+TC014,Natural Language Processing,Coursera,"NLP, text processing, sentiment analysis, transformers, BERT, Python",65,Advanced
+TC015,Agile Product Management,Scrum Alliance,"agile, scrum, product management, user stories, sprint planning",24,Intermediate
+TC016,Cloud Computing with Azure,Microsoft Learn,"Azure, cloud services, virtual machines, storage, networking",48,Intermediate
+TC017,Blockchain Fundamentals,Udemy,"blockchain, distributed ledger, consensus algorithms, cryptography",30,Beginner
+TC018,Smart Contract Development,ConsenSys Academy,"Solidity, Ethereum, smart contracts, Web3, DApp development",70,Advanced
+TC019,React and Modern JavaScript,Frontend Masters,"JavaScript, React, ES6, hooks, state management, component design",42,Intermediate
+TC020,Data Governance and Ethics,LinkedIn Learning,"data governance, data privacy, GDPR, ethics, compliance, data quality",22,Intermediate
+TC021,Advanced Python Programming,Real Python,"Python, OOP, design patterns, testing, async programming, decorators",38,Advanced
+TC022,Tableau Advanced Analytics,Tableau Training,"Tableau, advanced calculations, LOD expressions, statistical analysis",32,Advanced
+TC023,MLOps: Production ML Systems,Google Cloud,"MLOps, model deployment, monitoring, CI/CD for ML, TensorFlow Extended",52,Advanced
+TC024,Leadership in Data-Driven Organizations,Harvard Online,"leadership, data strategy, change management, organizational transformation",36,Advanced
+TC025,ETL Design and Implementation,Informatica University,"ETL, data integration, data quality, workflow design, performance tuning",44,Intermediate
+

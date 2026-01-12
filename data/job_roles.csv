@@ -1,0 +1,17 @@
+role_id,role_title,role_description,required_skills
+JR001,Data Analyst,"Analyze business data to provide insights and support decision-making processes","Python, SQL, data visualization, statistics, Excel, Tableau"
+JR002,Machine Learning Engineer,"Design and implement machine learning models for production systems","Python, TensorFlow, PyTorch, machine learning, deep learning, MLOps, Docker"
+JR003,Data Strategy Officer,"Lead data strategy initiatives and align data capabilities with business goals","data governance, strategic planning, business intelligence, leadership, data architecture"
+JR004,Cloud Solutions Architect,"Design and implement cloud infrastructure and migration strategies","AWS, Azure, cloud architecture, DevOps, Kubernetes, microservices"
+JR005,Business Intelligence Analyst,"Develop BI solutions and dashboards for business stakeholders","SQL, Power BI, Tableau, data modeling, ETL, business analysis"
+JR006,DevOps Engineer,"Automate deployment pipelines and manage infrastructure as code","CI/CD, Docker, Kubernetes, Jenkins, Terraform, Linux, scripting"
+JR007,Data Engineer,"Build and maintain data pipelines and data warehouse solutions","Python, SQL, Apache Spark, ETL, data warehousing, Airflow, Kafka"
+JR008,AI Research Scientist,"Conduct research in artificial intelligence and develop novel algorithms","Python, machine learning, deep learning, research methodology, mathematics, NLP"
+JR009,Cybersecurity Analyst,"Monitor and protect organizational systems from security threats","network security, penetration testing, SIEM, incident response, cryptography"
+JR010,Full Stack Developer,"Develop end-to-end web applications with modern frameworks","JavaScript, React, Node.js, Python, REST APIs, databases, Git"
+JR011,Product Manager,"Define product strategy and roadmap based on market and customer needs","product management, agile, stakeholder management, data analysis, UX design"
+JR012,Data Scientist,"Apply statistical methods and machine learning to solve business problems","Python, R, machine learning, statistics, data visualization, SQL, scikit-learn"
+JR013,Solutions Engineer,"Provide technical expertise and solutions to customer challenges","technical consulting, cloud platforms, APIs, problem solving, communication"
+JR014,Blockchain Developer,"Design and implement blockchain-based solutions and smart contracts","Solidity, Ethereum, blockchain architecture, cryptography, Web3, smart contracts"
+JR015,UX/UI Designer,"Create user-centered designs for digital products and interfaces","Figma, user research, prototyping, design thinking, usability testing, Adobe XD"
+
