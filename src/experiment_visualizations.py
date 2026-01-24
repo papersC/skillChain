@@ -13,28 +13,39 @@ from pathlib import Path
 
 class ExperimentVisualizer:
     """Generate publication-quality visualizations for experiments"""
-    
+
     def __init__(self):
         """Initialize visualizer with publication settings"""
-        # Set publication-quality defaults
-        plt.rcParams['figure.dpi'] = 300
-        plt.rcParams['savefig.dpi'] = 300
-        plt.rcParams['font.size'] = 10
+        # Set HIGH RESOLUTION publication-quality defaults
+        # Minimum 1000 pixels = 300 DPI * 3.33 inches, so we use larger figures
+        self.dpi = 300
+        plt.rcParams['figure.dpi'] = self.dpi
+        plt.rcParams['savefig.dpi'] = self.dpi
+        plt.rcParams['font.size'] = 12
         plt.rcParams['font.family'] = 'serif'
-        plt.rcParams['axes.labelsize'] = 11
-        plt.rcParams['axes.titlesize'] = 12
-        plt.rcParams['xtick.labelsize'] = 9
-        plt.rcParams['ytick.labelsize'] = 9
-        plt.rcParams['legend.fontsize'] = 9
-        
+        plt.rcParams['axes.labelsize'] = 14
+        plt.rcParams['axes.titlesize'] = 16
+        plt.rcParams['xtick.labelsize'] = 11
+        plt.rcParams['ytick.labelsize'] = 11
+        plt.rcParams['legend.fontsize'] = 11
+        plt.rcParams['figure.facecolor'] = 'white'
+        plt.rcParams['axes.facecolor'] = 'white'
+        plt.rcParams['savefig.facecolor'] = 'white'
+
         # Color palette
         self.colors = sns.color_palette("husl", 8)
+
+        # Minimum figure size to ensure 1000+ pixels at 300 DPI
+        # 1000 pixels / 300 DPI = 3.33 inches minimum
+        # Using 4+ inches for safety margin
+        self.min_fig_width = 14  # 14 * 300 = 4200 pixels
+        self.min_fig_height = 10  # 10 * 300 = 3000 pixels
         
     def plot_exp1_threshold_analysis(self, results: Dict, output_path: str):
         """
         Visualize Experiment 1: Threshold Analysis
         """
-        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(12, 10))
+        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(self.min_fig_width, self.min_fig_height))
         
         thresholds = results['threshold']
         
@@ -89,15 +100,15 @@ class ExperimentVisualizer:
         ax4.legend(lines, labels, loc='upper right')
         
         plt.tight_layout()
-        plt.savefig(output_path, bbox_inches='tight')
-        print(f"✓ Saved: {output_path}")
+        plt.savefig(output_path, dpi=self.dpi, bbox_inches='tight', facecolor='white', edgecolor='none')
+        print(f"✓ Saved: {output_path} (High Resolution: {self.min_fig_width*self.dpi}x{self.min_fig_height*self.dpi} pixels)")
         plt.close()
-    
+
     def plot_exp2_skill_progression(self, results: Dict, output_path: str):
         """
         Visualize Experiment 2: Skill Gap Progression
         """
-        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(self.min_fig_width, 7))
         
         stages = results['stage']
         x_pos = np.arange(len(stages))
@@ -132,15 +143,15 @@ class ExperimentVisualizer:
             ax2.text(i, gaps + 0.2, str(gaps), ha='center', fontsize=10, fontweight='bold')
         
         plt.tight_layout()
-        plt.savefig(output_path, bbox_inches='tight')
-        print(f"✓ Saved: {output_path}")
+        plt.savefig(output_path, dpi=self.dpi, bbox_inches='tight', facecolor='white', edgecolor='none')
+        print(f"✓ Saved: {output_path} (High Resolution)")
         plt.close()
-    
+
     def plot_exp3_blockchain_performance(self, results: Dict, output_path: str):
         """
         Visualize Experiment 3: Blockchain Performance
         """
-        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(12, 10))
+        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(self.min_fig_width, self.min_fig_height))
         
         df = pd.DataFrame(results)
         issue_df = df[df['operation'] == 'Issue']
@@ -187,15 +198,15 @@ class ExperimentVisualizer:
         ax4.grid(True, alpha=0.3)
 
         plt.tight_layout()
-        plt.savefig(output_path, bbox_inches='tight')
-        print(f"✓ Saved: {output_path}")
+        plt.savefig(output_path, dpi=self.dpi, bbox_inches='tight', facecolor='white', edgecolor='none')
+        print(f"✓ Saved: {output_path} (High Resolution)")
         plt.close()
 
     def plot_exp4_model_comparison(self, results: Dict, output_path: str):
         """
         Visualize Experiment 4: Model Comparison
         """
-        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(12, 10))
+        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(self.min_fig_width, self.min_fig_height))
 
         df = pd.DataFrame(results)
         x_pos = np.arange(len(df))
@@ -252,15 +263,15 @@ class ExperimentVisualizer:
             ax4.text(i, eff + 0.05, f'{eff:.2f}', ha='center', fontsize=9)
 
         plt.tight_layout()
-        plt.savefig(output_path, bbox_inches='tight')
-        print(f"✓ Saved: {output_path}")
+        plt.savefig(output_path, dpi=self.dpi, bbox_inches='tight', facecolor='white', edgecolor='none')
+        print(f"✓ Saved: {output_path} (High Resolution)")
         plt.close()
 
     def plot_exp5_scalability(self, results: Dict, output_path: str):
         """
         Visualize Experiment 5: Scalability Analysis
         """
-        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(12, 10))
+        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(self.min_fig_width, self.min_fig_height))
 
         df = pd.DataFrame(results)
 
@@ -311,15 +322,15 @@ class ExperimentVisualizer:
         ax4.grid(True, alpha=0.3)
 
         plt.tight_layout()
-        plt.savefig(output_path, bbox_inches='tight')
-        print(f"✓ Saved: {output_path}")
+        plt.savefig(output_path, dpi=self.dpi, bbox_inches='tight', facecolor='white', edgecolor='none')
+        print(f"✓ Saved: {output_path} (High Resolution)")
         plt.close()
 
     def plot_exp6_distribution(self, results: Dict, output_path: str):
         """
         Visualize Experiment 6: Score Distribution
         """
-        fig = plt.figure(figsize=(14, 10))
+        fig = plt.figure(figsize=(self.min_fig_width, 12))
         gs = fig.add_gridspec(3, 3, hspace=0.3, wspace=0.3)
 
         ax1 = fig.add_subplot(gs[0, :2])
@@ -383,7 +394,7 @@ class ExperimentVisualizer:
         ax5.legend()
         ax5.grid(True, alpha=0.3, axis='y')
 
-        plt.savefig(output_path, bbox_inches='tight')
-        print(f"✓ Saved: {output_path}")
+        plt.savefig(output_path, dpi=self.dpi, bbox_inches='tight', facecolor='white', edgecolor='none')
+        print(f"✓ Saved: {output_path} (High Resolution)")
         plt.close()
 

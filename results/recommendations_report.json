@@ -31,12 +31,12 @@
         "python",
         "sql",
         "statistics",
-        "data visualization",
-        "r"
+        "r",
+        "data visualization"
       ],
       "skill_gaps": [
-        "scikit-learn",
-        "machine learning"
+        "machine learning",
+        "scikit-learn"
       ],
       "gap_count": 2
     }
@@ -71,8 +71,8 @@
       "similarity_score": 74.75,
       "matching_skills": [
         "power bi",
-        "data modeling",
         "tableau",
+        "data modeling",
         "etl"
       ],
       "skill_gaps": [
@@ -111,14 +111,14 @@
       "target_role_id": "JR008",
       "similarity_score": 77.25,
       "matching_skills": [
-        "machine learning",
         "python",
+        "machine learning",
         "nlp"
       ],
       "skill_gaps": [
+        "deep learning",
         "research methodology",
-        "mathematics",
-        "deep learning"
+        "mathematics"
       ],
       "gap_count": 3
     }
@@ -152,13 +152,13 @@
       "target_role_id": "JR006",
       "similarity_score": 77.61000061035156,
       "matching_skills": [
-        "scripting",
-        "ci/cd",
-        "docker",
         "kubernetes",
-        "jenkins",
+        "docker",
+        "ci/cd",
         "linux",
-        "terraform"
+        "terraform",
+        "jenkins",
+        "scripting"
       ],
       "skill_gaps": [],
       "gap_count": 0
@@ -193,15 +193,15 @@
       "target_role_id": "JR012",
       "similarity_score": 71.5999984741211,
       "matching_skills": [
-        "python",
         "r",
         "statistics",
+        "python",
         "sql"
       ],
       "skill_gaps": [
+        "machine learning",
         "data visualization",
-        "scikit-learn",
-        "machine learning"
+        "scikit-learn"
       ],
       "gap_count": 3
     }
@@ -235,14 +235,14 @@
       "target_role_id": "JR010",
       "similarity_score": 70.58000183105469,
       "matching_skills": [
-        "python",
         "react",
-        "git",
-        "javascript"
+        "javascript",
+        "python",
+        "git"
       ],
       "skill_gaps": [
-        "databases",
         "rest apis",
+        "databases",
         "node.js"
       ],
       "gap_count": 3
@@ -277,15 +277,15 @@
       "target_role_id": "JR007",
       "similarity_score": 77.05999755859375,
       "matching_skills": [
-        "apache spark",
-        "python",
         "etl",
-        "sql"
+        "sql",
+        "python",
+        "apache spark"
       ],
       "skill_gaps": [
-        "airflow",
+        "data warehousing",
         "kafka",
-        "data warehousing"
+        "airflow"
       ],
       "gap_count": 3
     }
@@ -319,11 +319,11 @@
       "target_role_id": "JR004",
       "similarity_score": 74.58999633789062,
       "matching_skills": [
-        "microservices",
         "aws",
+        "microservices",
         "kubernetes",
-        "azure",
-        "cloud architecture"
+        "cloud architecture",
+        "azure"
       ],
       "skill_gaps": [
         "devops"
@@ -360,13 +360,13 @@
       "target_role_id": "JR011",
       "similarity_score": 69.27999877929688,
       "matching_skills": [
-        "agile",
-        "product management"
+        "product management",
+        "agile"
       ],
       "skill_gaps": [
         "data analysis",
-        "ux design",
-        "stakeholder management"
+        "stakeholder management",
+        "ux design"
       ],
       "gap_count": 3
     }
@@ -400,12 +400,12 @@
       "target_role_id": "JR012",
       "similarity_score": 78.4800033569336,
       "matching_skills": [
-        "python",
-        "sql",
-        "machine learning",
-        "statistics",
         "data visualization",
-        "r"
+        "sql",
+        "statistics",
+        "machine learning",
+        "r",
+        "python"
       ],
       "skill_gaps": [
         "scikit-learn"
